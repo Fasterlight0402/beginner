@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://n8tdpn1dlycd"]
+
+[ext_resource type="Script" uid="uid://le6thnhpiqm" path="res://gs_input单例和自定义单例.gd" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://yo8g7ar34blb" path="res://icon.svg" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=1311827094]
+
+[node name="Node" type="Node" parent="." unique_id=196384009]
+
+[node name="Sprite2D" type="Sprite2D" parent="Node" unique_id=1087778800]
+position = Vector2(82, 320)
+texture = ExtResource("2_epypp")
+script = ExtResource("2_0e48y")
+
+[node name="Label" type="Label" parent="Node" unique_id=915428193]
+offset_left = 181.0
+offset_top = 185.0
+offset_right = 221.0
+offset_bottom = 208.0
